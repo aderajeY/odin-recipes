@@ -1,0 +1,107 @@
+.flex-container{
+    
+    
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    margin: 0 24px;
+
+}
+.header{
+    
+    background-color: #333;
+    color: white;
+    
+    
+}
+
+.headerOne{
+    display: flex;
+    justify-content: space-between;
+}
+.headerMain{
+    display: flex;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    
+    
+    
+}
+
+
+.headerOne a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    
+
+}
+.header a:last-child{
+    margin-right: 5px;
+}
+input{
+    background-color: blue;
+}
+.two{
+    background-color: #777;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.sectionOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sectionTwo{
+    background-color: #eee;
+}
+.quote{
+   
+    text-align: center;
+    padding: 10px;
+}
+.sectionThree{
+    background-color: blue;
+    justify-content: space-between;
+    display: flex;
+    
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+.sectionThree .one{
+    padding-left: 60px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer{
+    flex: 1 1 auto;
+    background-color: black;
+    color: white;
+
+  }
+  footer>p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
